@@ -3,7 +3,7 @@
 class App{
 
     public function __construct(){
-        echo 'OK!';
+        var_dump($_GET);
     }
 
 }
