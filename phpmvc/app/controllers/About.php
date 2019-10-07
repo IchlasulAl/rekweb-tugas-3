@@ -2,8 +2,8 @@
 
 class About{
 
-    public function index($nama= "Ichlasul", $pekerjaan= " Mahasiswa"){
-        echo "Halo $nama, seorang $pekerjaan";
+    public function index($nama= "Ichlasul", $pekerjaan= " Mahasiswa",$umur= 20){
+        echo "Halo $nama, seorang $pekerjaan, berumur $umur";
     }
 
     public function page(){
